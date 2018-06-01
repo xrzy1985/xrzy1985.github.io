@@ -8,9 +8,9 @@ body {
 
 .left_button {
   //style="display: none'
-  top: 500px;
   left: 0;
   margin-left: 270px;
+  margin-top: 475px;
 }
 
 .button {
