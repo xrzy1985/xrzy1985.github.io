@@ -7,7 +7,8 @@ body {
 }
 
 .left_button {
-  bottom: 200px;
+  //style="display: none'
+  bottom: 500px;
   left: 0;
   margin-left: 270px;
 }
