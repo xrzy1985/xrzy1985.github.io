@@ -7,12 +7,9 @@ body {
 }
 
 .left_button {
-
-  bottom: 0;
+  bottom: 200px;
   left: 0;
-  margin-bottom: 200px;
   margin-left: 270px;
-
 }
 
 .button {
