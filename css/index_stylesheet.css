@@ -8,7 +8,7 @@ body {
 
 .left_button {
   //style="display: none'
-  bottom: 500px;
+  top: 500px;
   left: 0;
   margin-left: 270px;
 }
