@@ -8,8 +8,10 @@ body {
 
 .left_button {
 
+  top: 0;
   left: 0;
-  margin-left: 200px;
+  margin-top: 500px;
+  margin-left: 250px;
 
 }
 
