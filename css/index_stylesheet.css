@@ -1,5 +1,6 @@
 body {
   font-variant: small-caps;
+  padding-top: 54px;
   overflow-x: hidden;
 }
 
@@ -122,4 +123,14 @@ body {
     position: relative;
     margin-right: 0;
   }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.card {
+  height: 100%;
 }
