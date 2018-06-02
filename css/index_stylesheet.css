@@ -1,6 +1,6 @@
 body {
   font-variant: small-caps;
-  padding-top: 56px;
+  padding-top: 54px;
   overflow-x: hidden;
 }
 
@@ -30,7 +30,6 @@ body {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
 
 #wrapper.toggled #sidebar-wrapper {
   width: 200px;
@@ -84,7 +83,7 @@ body {
 
 .sidebar-nav>.sidebar-brand {
   font-variant: small-caps;
-  height: 56px;
+  height: 65px;
   font-size: 18px;
   line-height: 60px;
 }
