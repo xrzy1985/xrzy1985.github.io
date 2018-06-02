@@ -1,6 +1,6 @@
 body {
   font-variant: small-caps;
-  padding-top: 54px;
+  padding-top: 56px;
   overflow-x: hidden;
 }
 
@@ -31,9 +31,6 @@ body {
   transition: all 0.5s ease;
 }
 
-#btn btn-primary{
-	background: #0a0899;
-}
 
 #wrapper.toggled #sidebar-wrapper {
   width: 200px;
