@@ -143,3 +143,8 @@ body {
 #six{
   min-height: 900px;
 }
+
+#Informative{
+  border-left: 10px solid black;
+  padding-left: 20px;
+}
