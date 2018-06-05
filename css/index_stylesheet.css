@@ -120,28 +120,24 @@ body {
   }
 }
 
-#home{
-  min-height: 900px;
-}
-
 #one{
-  min-height: 900px;
+  min-height: 1000px;
 }
 
 #two{
-  min-height: 900px;
+  min-height: 1000px;
 }
 #three{
-  min-height: 900px;
+  min-height: 1000px;
 }
 #four{
-  min-height: 900px;
+  min-height: 1000px;
 }
 #five{
-  min-height: 900px;
+  min-height: 1000px;
 }
 #six{
-  min-height: 900px;
+  min-height: 1000px;
 }
 
 #h2_heading{
