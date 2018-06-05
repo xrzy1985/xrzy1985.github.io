@@ -120,6 +120,9 @@ body {
   }
 }
 
+#home{
+  min-height: 900px;
+}
 
 #one{
   min-height: 900px;
