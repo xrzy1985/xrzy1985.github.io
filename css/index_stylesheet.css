@@ -141,6 +141,8 @@ body {
 }
 
 #h2_heading{
+  margin-top: 25px;
+  margin-bottom: 25px;
   border-left: 10px;
 	padding-left: 10px;
 	border-left-style: solid;
