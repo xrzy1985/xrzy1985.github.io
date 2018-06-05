@@ -152,9 +152,8 @@ body {
 
 #img_border{
 
-  border: 5px;
-  border-style: double;
+  border: 10px;
+  border-style: solid;
   border-color: #0a0899;
-  padding: 5px;
 
 }
