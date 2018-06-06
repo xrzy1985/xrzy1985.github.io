@@ -221,6 +221,10 @@ body {
   text-shadow: 2.5px 2.5px 5px #b3b3ff;
 }
 
+#h2_project{
+  text-shadow: 2.5px 2.5px 5px #b3b3ff;
+}
+
 #img_border{
   border: 10px;
   border-style: solid;
