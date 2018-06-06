@@ -221,10 +221,12 @@ body {
 }
 
 #h2_heading2{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   border-left: 10px;
 	padding-left: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 	border-left-style: solid;
   border-left-color: #0a0899;
   width: 100%;
