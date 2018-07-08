@@ -1,7 +1,6 @@
 body {
   font-variant: small-caps;
   overflow-x: hidden;
-  margin-right: 25px;
 }
 
 #wrapper {
@@ -119,6 +118,11 @@ body {
     position: relative;
     margin-right: 0;
   }
+}
+
+.documentPage
+{
+  margin-right: 75px;
 }
 
 .icon-bar {
