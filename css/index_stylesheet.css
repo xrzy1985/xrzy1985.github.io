@@ -1,6 +1,7 @@
 body {
   font-variant: small-caps;
   overflow-x: hidden;
+  margin-right: 25px;
 }
 
 #wrapper {
