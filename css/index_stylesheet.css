@@ -8,7 +8,7 @@ header {
 }
 
 footer {
-	heigh: 20vh;
+	height: 20vh;
 }
 
 @media (min-width: 992px) {
