@@ -9,8 +9,7 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-    body {
-        body {
+body {
 		  background: url('../images/l.jpg') no-repeat center center fixed;
 		  -webkit-background-size: cover;
 		  -moz-background-size: cover;
@@ -19,9 +18,8 @@ body {
 		  margin-top: 10vh;
 		  margin-bottom: 10vh;
 		}
-    }
 }
 
 #title{
-	
+
 }
