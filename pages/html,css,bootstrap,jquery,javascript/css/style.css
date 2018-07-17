@@ -1,0 +1,26 @@
+body{	
+	font-variant: small-caps;
+	font-size: 16px;
+}
+
+section {
+	display: none;
+	padding: 15vh 0;
+	min-height: 80vh;
+}
+
+header {
+	padding: 154px 0;
+}
+
+#shade{
+	text-shadow: 1.5px 1.5px 3px #8f8f8f;
+}
+
+#shade_white{
+	text-shadow: 1.5px 1.5px 3px #808080;
+}
+
+#shade_white_home{
+	text-shadow: 1.5px 1.5px 3px #d6d6d6;
+}
