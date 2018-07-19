@@ -26,6 +26,10 @@ section {
   text-shadow: 1.5px 1.5px 3px #8f8f8f;
 }
 
+.shade{
+  text-shadow: 1.5px 1.5px 3px #8f8f8f;
+}
+
 #shade_white{
   text-shadow: 1.5px 1.5px 3px #808080;
 }
