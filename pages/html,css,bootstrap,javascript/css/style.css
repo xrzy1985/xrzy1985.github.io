@@ -1,0 +1,61 @@
+body{	
+	font-variant: small-caps;	
+	font-size: 16px;
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+footer {
+	height: 20vh;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 100px 0;
+  min-height: 80vh;
+}
+
+.shade{
+  text-shadow: 1.5px 1.5px 3px #8f8f8f;
+}
+
+#shade_white{
+  text-shadow: 1.5px 1.5px 3px #808080;
+}
+
+#shade_white_header_name{
+  text-shadow: 1.5px 1.5px 3px #808080;
+}
+
+#shade_white_header_info{
+  text-shadow: 1.5px 1.5px 3px #808080;
+}
+
+#shade_white_home{
+  text-shadow: 1.5px 1.5px 3px #d6d6d6;
+}
+
+#projects_summary_one_info, #projects_languages_one_info, #projects_tech_one_info, #projects_methodology_one_info, 
+#projects_role_one_info, #projects_features_one_info, #projects_purpose_one_info,
+#projects_summary_two_info, #projects_languages_two_info, #projects_tech_two_info, #projects_methodology_two_info, 
+#projects_role_two_info, #projects_features_two	_info, #projects_purpose_two_info,
+#projects_summary_three_info, #projects_languages_three_info, #projects_tech_three_info, #projects_methodology_three_info, 
+#projects_role_three_info, #projects_features_three_info, #projects_purpose_three_info,
+#projects_summary_four_info, #projects_languages_four_info, #projects_tech_four_info, #projects_methodology_four_info, 
+#projects_role_four_info, #projects_features_four_info, #projects_purpose_four_info,
+#projects_summary_five_info, #projects_languages_five_info, #projects_tech_five_info, #projects_methodology_five_info, 
+#projects_role_five_info, #projects_features_five_info, #projects_purpose_five_info,
+#projects_summary_six_info, #projects_languages_six_info, #projects_tech_six_info, #projects_methodology_six_info, 
+#projects_role_six_info, #projects_features_six_info, #projects_purpose_six_info, #home_info
+{
+	margin-left: 15px;
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
