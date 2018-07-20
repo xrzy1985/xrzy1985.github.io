@@ -1,13 +1,9 @@
-function HideShow() 
-{
-    var x = document.getElementById("myDIV");
-	
-    if (x.style.display === "none") 
-	{
-        x.style.display = "block";
-    } 
-	else 
-	{
-        x.style.display = "none";
-    }
-} 
+$("#menu-toggle").click(function(e) {
+  e.preventDefault();
+  $("#wrapper").toggleClass("toggled");
+});
+
+
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
