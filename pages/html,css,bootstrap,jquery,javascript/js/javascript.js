@@ -1,79 +1,38 @@
-$(document).ready(function(){
-  $("#A").ready(function(){
-    $("section").hide();
-    $("#home").show("slow");
-  });
-});
+var me = {
+	firstName:"James", 
+	lastName:"Patterson", 
+	age:32, 
+	email: "james.patterson@themerakicode.com",
+	info: "Kennesaw State University · College of Computing and Software Engineering",
+	website: "the meraki code",
+	fullName : function() {
+        return this.firstName + " " + this.lastName;
+    }	
+};
 
-$(document).ready(function(){
-  $("#shade_white_home").click(function(){
-    $("section").hide();
-    $("#top").show("slow");
-    $("#home").show("slow");
-  });
-});
+var navLinks = ["Home", "About", "Goals", "Projects", "Skills", "Strengths"];
 
-$(document).ready(function(){
-  $("#showHome").click(function(){
-    $("#top").hide("slow");
-    $("section").hide();
-    $("#home").show("slow");
-  });
-});
+var baseHeaders = ["Information", "About", "Goals", "Projects", "Skills", "Strengths"];
 
-$(document).ready(function(){
-  $("#showAbout").click(function(){
-    $("#top").hide("slow");
-    $("section").hide();
-    $("#aboutMe").show("slow");
-  });
-});
+							  
+var i;
+for (i = 0; i < navLinks.length; i++) {
+	var temp = "navLink";
+	var t = temp.concat(i);
+    document.getElementById(t).innerHTML = navLinks[i];
+} 
 
-$(document).ready(function(){
-  $("#showGoals").click(function(){
-    $("#top").hide("slow");
-    $("section").hide();
-    $("#goals").show("slow");
-  });
-});
+var j;
+for (j = 0; j < baseHeaders.length; j++) {
+	var temp = "baseHeader";
+	var t = temp.concat(j);
+    document.getElementById(t).innerHTML = baseHeaders[j];
+}
 
-$(document).ready(function(){
-  $("#showProjects").click(function(){
-    $("#top").hide("slow");
-    $("section").hide();
-    $("#projects").show("slow");
-  });
-});
+document.getElementById("shade_white_home").innerHTML = "Portfolio";
 
-$(document).ready(function(){
-  $("#showSkills").click(function(){
-    $("#top").hide("slow");
-    $("section").hide();
-    $("#skills").show("slow");
-  });
-});
+document.getElementById("shade_white_header_name").innerHTML = me.fullName();
 
-$(document).ready(function(){
-  $("#showStrengths").click(function(){
-    $("#top").hide("slow");
-    $("section").hide();
-    $("#strengths").show("slow");
-  });
-});
+document.getElementById("shade_white_header_info").innerHTML = me.info;
 
-$(document).ready(function(){
-  $("#showSkills").click(function(){
-    $("#top").hide("slow");
-    $("section").hide();
-    $("#skills").show("slow");
-  });
-});
 
-$(document).ready(function(){
-  $("#showWork").click(function(){
-    $("#top").hide("slow");
-    $("section").hide();
-    $("#work").show("slow");
-
-  });
-});
