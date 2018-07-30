@@ -1,19 +1,22 @@
+// Soon as the document has been loaded fully
 $(document).ready(function(){
   $("#page-top").ready(function(){
     $("section").hide();
-	$("#top").slideDown(5000);
-    $("#home").show(2000);
+    $("#top").show("slow");
+    $("#home").show("slow");
   });
 });
 
+// When someone clicks on the Portfolio tab
 $(document).click(function(){
-  $("#shade_white_home").click(function(){
+  $("#port").click(function(){
     $("section").hide();
-    $("#home").show(2000);
-	$("#top").fadeIn();
+    $("#top").show("slow");
+    $("#home").show("slow");
   });
 });
-/*
+
+// when the home tab is clicked
 $(document).ready(function(){
   $("#navLink0").click(function(){
     $("#top").hide();
@@ -21,7 +24,7 @@ $(document).ready(function(){
     $("#home").show();
   });
 });
-
+/*
 $(document).ready(function(){
   $("#navLink1").click(function(){
     $("#top").hide();
