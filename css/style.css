@@ -8,7 +8,7 @@ body {
   margin-bottom: 10vh;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
 body {
 		  background: url('../images/l.jpg') no-repeat center center fixed;
 		  -webkit-background-size: cover;
