@@ -23,15 +23,27 @@ section {
 }
 
 .shade{
-  text-shadow: 1.5px 1.5px 3px #8f8f8f;
+	color: #868e96 ;
+	text-shadow: 1.5px 1.5px 3px #8f8f8f;
 }
 
-#shade_white, #shade_white_header_name, #shade_white_header_info{
-  text-shadow: 1.5px 1.5px 3px #808080;
+#shade_white{
+	text-shadow: 1.5px 1.5px 3px #808080;
+}
+
+#shade_white_header_name{
+	color: #fd7e14;
+	text-shadow: 1.5px 1.5px 3px #808080;
+}
+
+#shade_white_header_info{
+	color: black;
+	text-shadow: 1.5px 1.5px 3px #808080;
 }
 
 #port{
-  text-shadow: 1.5px 1.5px 3px #d6d6d6;
+	color: #fd7e14;
+	text-shadow: 1.5px 1.5px 3px #808080;
 }
 
 #projects_summary_one_info, #projects_languages_one_info, #projects_tech_one_info, #projects_methodology_one_info,

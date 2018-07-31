@@ -23,6 +23,7 @@ section {
 }
 
 .shade{
+	color: black;
   text-shadow: 1.5px 1.5px 3px #8f8f8f;
 }
 
@@ -30,11 +31,13 @@ section {
   text-shadow: 1.5px 1.5px 3px #808080;
 }
 
-#shade_white_header_name{
+#shade_white_header_name{	
+	color: black;
   text-shadow: 1.5px 1.5px 3px #808080;
 }
 
 #shade_white_header_info{
+	color: black;
   text-shadow: 1.5px 1.5px 3px #808080;
 }
 

@@ -1,5 +1,4 @@
 var config = {
-
 	apiKey: "AIzaSyANNksn5w6ebGP-hinHibwKz1er3UVz7DE",
     authDomain: "portfolio-xrzy.firebaseapp.com",
     databaseURL: "https://portfolio-xrzy.firebaseio.com",
@@ -67,9 +66,3 @@ for (j = 0; j < baseHeaders.length; j++) {
 	var t1 = temp.concat(j);
     document.getElementById(t1).innerHTML = baseHeaders[j];
 }
-
-// document.getElementById("shade_white_home").innerHTML = "Portfolio";
-
-//document.getElementById("shade_white_header_name").innerHTML = me.fullName();
-
-//document.getElementById("shade_white_header_info").innerHTML = me.info;
