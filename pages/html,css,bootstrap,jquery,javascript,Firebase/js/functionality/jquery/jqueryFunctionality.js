@@ -23,20 +23,22 @@ $(document).click(function(){
 // when the home tab is clicked
 $(document).ready(function(){
   $("#navLink0").click(function(){
-    $("#top").hide();
+    $("#top").hide("slow");
     $("section").hide();
     $("#home").show();
   });
 });
-/*
+
+//
 $(document).ready(function(){
   $("#navLink1").click(function(){
-    $("#top").hide();
+    $("#top").hide("slow");
     $("section").hide();
     $("#aboutMe").show("slow");
   });
 });
 
+/*
 $(document).ready(function(){
   $("#navLink2").click(function(){
     $("#top").hide("slow");
