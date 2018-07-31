@@ -1,5 +1,8 @@
 
 //
+$(p[id$='_info']).css("margin-left", "15px");
+$(p[id$='_info']).css("margin-top", "-15px");
+$(p[id$='_info']).css("margin-bottom", "-15px");
 
 
 // Soon as the document has been loaded fully
@@ -29,6 +32,9 @@ $(document).ready(function(){
   });
 });
 
+
+
+/*
 //
 $(document).ready(function(){
   $("#navLink1").click(function(){
@@ -38,7 +44,7 @@ $(document).ready(function(){
   });
 });
 
-/*
+//
 $(document).ready(function(){
   $("#navLink2").click(function(){
     $("#top").hide("slow");
@@ -47,6 +53,7 @@ $(document).ready(function(){
   });
 });
 
+//
 $(document).ready(function(){
   $("#navLink3").click(function(){
     $("#top").hide("slow");
@@ -55,6 +62,7 @@ $(document).ready(function(){
   });
 });
 
+//
 $(document).ready(function(){
   $("#navLink4").click(function(){
     $("#top").hide("slow");
@@ -63,6 +71,7 @@ $(document).ready(function(){
   });
 });
 
+//
 $(document).ready(function(){
   $("#navLink5").click(function(){
     $("#top").hide("slow");
@@ -71,6 +80,7 @@ $(document).ready(function(){
   });
 });
 
+//
 $(document).ready(function(){
   $("#navLink6").click(function(){
     $("#top").hide("slow");
@@ -79,6 +89,7 @@ $(document).ready(function(){
   });
 });
 
+//
 $(document).ready(function(){
   $("#navLink7").click(function(){
     $("#top").hide("slow");
