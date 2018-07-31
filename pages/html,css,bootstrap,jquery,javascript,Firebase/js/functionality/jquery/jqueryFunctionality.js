@@ -24,7 +24,7 @@ $(document).click(function(){
 });
 
 // when the home tab is clicked
-$(document).ready(function(){
+$(document).click(function(){
   $("#navLink0").click(function(){
     $("section").hide();
     $("#top").hide("slow");
@@ -33,7 +33,7 @@ $(document).ready(function(){
 });
 
 //
-$(document).ready(function(){
+$(document).click(function(){
   $("#navLink1").click(function(){
     $("section").hide();
     $("#top").hide("slow");
@@ -42,7 +42,7 @@ $(document).ready(function(){
 });
 
 //
-$(document).ready(function(){
+$(document).click(function(){
   $("#navLink2").click(function(){
     $("section").hide();
     $("#top").hide("slow");
@@ -51,7 +51,7 @@ $(document).ready(function(){
 });
 
 //
-$(document).ready(function(){
+$(document).click(function(){
   $("#navLink3").click(function(){
     $("section").hide();
     $("#top").hide("slow");
@@ -60,7 +60,7 @@ $(document).ready(function(){
 });
 
 //
-$(document).ready(function(){
+$(document).click(function(){
   $("#navLink4").click(function(){
     $("section").hide();
     $("#top").hide("slow");
@@ -69,7 +69,7 @@ $(document).ready(function(){
 });
 
 //
-$(document).ready(function(){
+$(document).click(function(){
   $("#navLink5").click(function(){
     $("section").hide();
     $("#top").hide("slow");
@@ -78,7 +78,7 @@ $(document).ready(function(){
 });
 
 //
-$(document).ready(function(){
+$(document).click(function(){
   $("#navLink6").click(function(){
     $("section").hide();
     $("#top").hide("slow");
@@ -87,7 +87,7 @@ $(document).ready(function(){
 });
 
 //
-$(document).ready(function(){
+$(document).click(function(){
   $("#navLink7").click(function(){
     $("section").hide();
     $("#top").hide("slow");
