@@ -32,9 +32,6 @@ $(document).ready(function(){
   });
 });
 
-
-
-/*
 //
 $(document).ready(function(){
   $("#navLink1").click(function(){
@@ -98,4 +95,3 @@ $(document).ready(function(){
 
   });
 });
-*/
