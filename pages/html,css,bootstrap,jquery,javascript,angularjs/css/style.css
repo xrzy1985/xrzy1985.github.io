@@ -23,16 +23,21 @@ section {
 }
 
 .shade{
-	color: #28a745;
+	color: #343a40;
 	text-shadow: 1.5px 1.5px 3px #8f8f8f;
 }
 
-#shade_white, #shade_white_header_name, #shade_white_header_info{
+#shade_white{
 	text-shadow: 1.5px 1.5px 3px #808080;
+} 
+
+#shade_white_header_name, #shade_white_header_info{
+	color: black;
+	text-shadow: 1.5px 1.5px 3px #444444;
 }
 
 #shade_white_home{
-  text-shadow: 1.5px 1.5px 3px #d6d6d6;
+  text-shadow: 1.5px 1.5px 3px #444444;
 }
 
 #projects_summary_one_info, #projects_languages_one_info, #projects_tech_one_info, #projects_methodology_one_info, 
