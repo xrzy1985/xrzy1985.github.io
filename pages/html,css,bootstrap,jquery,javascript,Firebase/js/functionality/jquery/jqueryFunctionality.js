@@ -1,10 +1,3 @@
-
-//
-$("p[id$='_info']").css("margin-left", "15px");
-$("p[id$='_info']").css("margin-top", "-15px");
-$("p[id$='_info']").css("margin-bottom", "-15px");
-
-
 // Soon as the document has been loaded fully
 $(document).ready(function(){
   $("#page-top").ready(function(){
