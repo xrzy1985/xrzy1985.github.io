@@ -26,17 +26,17 @@ $(document).click(function(){
 // when the home tab is clicked
 $(document).ready(function(){
   $("#navLink0").click(function(){
-    $("#top").hide("slow");
     $("section").hide();
-    $("#home").show();
+    $("#top").hide("slow");
+    $("#home").show("slow");
   });
 });
 
 //
 $(document).ready(function(){
   $("#navLink1").click(function(){
-    $("#top").hide("slow");
     $("section").hide();
+    $("#top").hide("slow");
     $("#aboutMe").show("slow");
   });
 });
@@ -44,8 +44,8 @@ $(document).ready(function(){
 //
 $(document).ready(function(){
   $("#navLink2").click(function(){
-    $("#top").hide("slow");
     $("section").hide();
+    $("#top").hide("slow");
     $("#goals").show("slow");
   });
 });
@@ -53,8 +53,8 @@ $(document).ready(function(){
 //
 $(document).ready(function(){
   $("#navLink3").click(function(){
-    $("#top").hide("slow");
     $("section").hide();
+    $("#top").hide("slow");
     $("#projects").show("slow");
   });
 });
@@ -62,8 +62,8 @@ $(document).ready(function(){
 //
 $(document).ready(function(){
   $("#navLink4").click(function(){
-    $("#top").hide("slow");
     $("section").hide();
+    $("#top").hide("slow");
     $("#skills").show("slow");
   });
 });
@@ -71,8 +71,8 @@ $(document).ready(function(){
 //
 $(document).ready(function(){
   $("#navLink5").click(function(){
-    $("#top").hide("slow");
     $("section").hide();
+    $("#top").hide("slow");
     $("#strengths").show("slow");
   });
 });
@@ -80,8 +80,8 @@ $(document).ready(function(){
 //
 $(document).ready(function(){
   $("#navLink6").click(function(){
-    $("#top").hide("slow");
     $("section").hide();
+    $("#top").hide("slow");
     $("#skills").show("slow");
   });
 });
@@ -89,8 +89,8 @@ $(document).ready(function(){
 //
 $(document).ready(function(){
   $("#navLink7").click(function(){
-    $("#top").hide("slow");
     $("section").hide();
+    $("#top").hide("slow");
     $("#work").show("slow");
 
   });
