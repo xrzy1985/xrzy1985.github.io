@@ -1,81 +1,86 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
-    <meta name="viewport" content="user-scalable = yes">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Page Data -->
-    <meta name="author" content="James Patterson">
-    <meta name="description" content="Portfolio">
-    <meta name="date" content="05/31/2018">
-    <title>James Patterson · Portfolio</title>
-    <!-- AngularJS 1.6.4 CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <!-- JQuery 3.3 CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Bootstrap JS 4.1 CDN -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
-    <!-- Bootstrap CSS 4.1 CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <!-- Icon CSS CDN -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <!-- Internal Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    <!-- Google Fonts CDN-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-</head>
-  <body id="page-top">
+<!-- ng-app is defining our app through AngularJS, app1 is the name of our app -->
+<html ng-app="app1" ng-init="firstName = 'James'; lastName = 'Patterson'">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-danger fixed-top" id="mainNav">
-      <div class="container">
-        <a id="shade_white_home" class="navbar-brand js-scroll-trigger" href="#page-top">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="user-scalable = yes">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		<!-- Page Data -->
+		<meta name="author" content="James Patterson">
+		<meta name="description" content="Portfolio">
+		<meta name="date" content="05/31/2018">
+		<title>James Patterson · Portfolio</title>
+		
+		<!-- JQuery 3.3 CDN -->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<!-- AngularJS 1.7.2 CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>		
+		<!-- Bootstrap JS 4.1 CDN -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
+		<!-- Bootstrap CSS 4.1 CDN -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<!-- Icon CSS CDN -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<!-- Internal Stylesheet -->
+		<link href="css/style.css" rel="stylesheet">
+		<!-- Google Fonts CDN-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	</head>
+	
+	<body id="page-top">
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-danger fixed-top" id="mainNav">
+	  <div class="container">
+		<a id="shade_white_home" class="navbar-brand js-scroll-trigger" href="#page-top">
 			portfolio
 		</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+		  <ul class="navbar-nav ml-auto">
 			<li class="nav-item">
-              <a id="navLink0" class="nav-link js-scroll-trigger" href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a id="navLink1" class="nav-link js-scroll-trigger" href="#about"></a>
-            </li>
-            <li class="nav-item">
-              <a id="navLink2" class="nav-link js-scroll-trigger" href="#goals"></a>
-            </li>
-            <li class="nav-item">
-              <a id="navLink3" class="nav-link js-scroll-trigger" href="#projects"></a>
-            </li>
-	          <li class="nav-item">
-              <a id="navLink4" class="nav-link js-scroll-trigger" href="#skills"></a>
-            </li>
-	          <li class="nav-item">
-              <a id="navLink5" class="nav-link js-scroll-trigger" href="#strengths"></a>
-            </li>
+			  <a id="navLink0" class="nav-link js-scroll-trigger" href="#"></a>
+			</li>
+			<li class="nav-item">
+			  <a id="navLink1" class="nav-link js-scroll-trigger" href="#"></a>
+			</li>
+			<li class="nav-item">
+			  <a id="navLink2" class="nav-link js-scroll-trigger" href="#goals"></a>
+			</li>
+			<li class="nav-item">
+			  <a id="navLink3" class="nav-link js-scroll-trigger" href="#projects"></a>
+			</li>
+			  <li class="nav-item">
+			  <a id="navLink4" class="nav-link js-scroll-trigger" href="#skills"></a>
+			</li>
+			  <li class="nav-item">
+			  <a id="navLink5" class="nav-link js-scroll-trigger" href="#strengths"></a>
+			</li>
 			<!--
 			<li class="nav-item">
-              <a id="navLink6" class="nav-link js-scroll-trigger" href="#work"></a>
-            </li>
+			  <a id="navLink6" class="nav-link js-scroll-trigger" href="#work"></a>
+			</li>
 			-->
-          </ul>
-        </div>
-      </div>
-    </nav>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
 	<!-- END Navigation -->
 
 	<!-- Header -->
-    <header id = "top" class="bg-danger text-white">
-      <div class="container text-center">
-        <h1 id="shade_white_header_name">name</h1>
-        <p id="shade_white_header_info" class="lead">information</p>
-      </div>
-    </header>
+	<header id = "top" class="bg-danger text-white" ng-controller="ctrl_header">
+	  <div class="container text-center">
+		<h1 id="shade_white_header_name" ng-cloak>{{full_name}}</h1>
+		<br>
+		<p id="shade_white_header_info" class="lead">{{header_info}}</p>
+	  </div>
+	</header>
 	<!-- END Header -->
 
 	<!-- Section Info -->
@@ -703,20 +708,26 @@
 	</div>
 	<!-- END Section Info -->
 
-    <!-- 
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">		
+	<!-- 
+	<footer class="py-5 bg-dark">
+	  <div class="container">
+		<p class="m-0 text-center text-white">		
 			<a id="footerWebsite" href = "resume/JamesPatterson.doc">
 				Resume
 			</a>		
 		</p>
-      </div>
-    </footer>
-	Footer -->
-
+	  </div>
+	</footer>
+	Footer -->	
+	
+	
+		
 	<!-- Internal Javascript file(s) -->
 	<script type="text/javascript" src="js/javascript.js"></script>
+	<!-- Internal Index AngularJS file: angular.js -->
+	<script type="text/javascript" src="js/angularjs/angular.js"></script>
+	<!-- Internal AngularJS file: header.js -->
+	<script type="text/javascript" src="js/angularjs/header/header.js"></script>
 	<!-- JQuery to Hide and Show elements upon request -->
 	<script type="text/javascript" src="js/functionality/jquery/jqueryFunctionality.js"></script>
 	<!-- Modal style tool tip module -->
@@ -734,11 +745,10 @@
 	<!-- GET information for the Strengths Section -->
 	<script type="text/javascript" src="js/attributes/strengths.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-  </body>
+	</body>
 
 </html>

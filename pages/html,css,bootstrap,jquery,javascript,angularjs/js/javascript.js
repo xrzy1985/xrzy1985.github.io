@@ -29,10 +29,10 @@ for (j = 0; j < baseHeaders.length; j++) {
     document.getElementById(t).innerHTML = baseHeaders[j];
 }
 
-document.getElementById("shade_white_home").innerHTML = "Portfolio";
+// document.getElementById("shade_white_home").innerHTML = "Portfolio";
 
-document.getElementById("shade_white_header_name").innerHTML = me.fullName();
+// document.getElementById("shade_white_header_name").innerHTML = me.fullName();
 
-document.getElementById("shade_white_header_info").innerHTML = me.info;
+// document.getElementById("shade_white_header_info").innerHTML = me.info;
 
 

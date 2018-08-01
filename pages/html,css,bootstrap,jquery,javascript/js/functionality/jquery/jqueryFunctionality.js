@@ -1,7 +1,7 @@
 $(document).ready(function(){
-  $("#A").ready(function(){
-    $("section").hide("slow");
-    $("#home").show("slow");
+  $("#page-top").ready(function(){
+	$("#top").show(1000);
+    $("#home").show(1050);
   });
 });
 
