@@ -108,4 +108,4 @@ var home = {
 	
 };
 							  
-document.getElementById("home_information").innerHTML = home.home_informaton;
+// document.getElementById("home_information").innerHTML = home.home_informaton;

@@ -85,5 +85,5 @@ var about = {
 	
 };
 							  
-document.getElementById("about_info").innerHTML = about.about_informaton;
+// document.getElementById("about_info").innerHTML = about.about_informaton;
 

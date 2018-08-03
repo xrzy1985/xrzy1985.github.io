@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
 	jQuery("#page-top").ready(function(){	
-		jQuery("#top").show(1000);
+		jQuery("#top").slideToggle(1000);
 		jQuery("#home").show(1050);
   });
 });

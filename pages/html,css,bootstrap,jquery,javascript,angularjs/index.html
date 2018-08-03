@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!-- ng-app is defining our app through AngularJS, app1 is the name of our app -->
-<html ng-app="app1" ng-init="firstName = 'James'; lastName = 'Patterson'">
+<html ng-app="app1" ng-init="firstName = 'James'; lastName = 'Patterson'; nWW = 'No Worries Wood Working'" ng-cloak>
 
 	<head>
 		<meta charset="utf-8">
@@ -17,7 +17,7 @@
 		<!-- JQuery 3.3 CDN -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<!-- AngularJS 1.7.2 CDN -->
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>		
 		<!-- Bootstrap JS 4.1 CDN -->
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
 		<!-- Bootstrap CSS 4.1 CDN -->
@@ -51,16 +51,16 @@
 			  <a id="navLink1" class="nav-link js-scroll-trigger" href="#"></a>
 			</li>
 			<li class="nav-item">
-			  <a id="navLink2" class="nav-link js-scroll-trigger" href="#goals"></a>
+			  <a id="navLink2" class="nav-link js-scroll-trigger" href="#"></a>
 			</li>
 			<li class="nav-item">
-			  <a id="navLink3" class="nav-link js-scroll-trigger" href="#projects"></a>
+			  <a id="navLink3" class="nav-link js-scroll-trigger" href="#"></a>
 			</li>
 			  <li class="nav-item">
-			  <a id="navLink4" class="nav-link js-scroll-trigger" href="#skills"></a>
+			  <a id="navLink4" class="nav-link js-scroll-trigger" href="#"></a>
 			</li>
 			  <li class="nav-item">
-			  <a id="navLink5" class="nav-link js-scroll-trigger" href="#strengths"></a>
+			  <a id="navLink5" class="nav-link js-scroll-trigger" href="#"></a>
 			</li>
 			<!--
 			<li class="nav-item">
@@ -76,7 +76,7 @@
 	<!-- Header -->
 	<header id = "top" class="bg-danger text-white" ng-controller="ctrl_header">
 	  <div class="container text-center">
-		<h1 id="shade_white_header_name" ng-cloak>{{full_name}}</h1>
+		<h1 id="shade_white_header_name">{{ full_name }}</h1>
 		<br>
 		<p id="shade_white_header_info" class="lead">{{header_info}}</p>
 	  </div>
@@ -85,29 +85,211 @@
 
 	<!-- Section Info -->
 	<div id="section_div">
-		<section id="home" class="bg-light">
+		<section id="home" class="bg-light" ng-controller="ctrl_home">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">
 						<h2 id="baseHeader0" class="shade">base index header 0</h2>
 						<hr>
 						<div id="home_information">
-
+							<p>
+								<strong class="shade">
+									{{ home[0].header }}
+								</strong>
+									<p id = "home_info">
+										{{ home[0].info }}
+									</p>
+							</p>
+							<p>
+								<strong class="shade">
+									{{ home[1].header }}
+								</strong>
+									<p id = "home_info">
+										{{ home[1].info }}
+									</p>							
+							</p>
+							<p>
+								<strong class="shade">
+									{{ home[2].header }}
+								</strong>
+									<p id = "home_info">
+										<a id="a_to_black" href="{{home[2].mail}}">
+											{{home[2].info}}
+										</a>
+									</p>
+							</p>
+							<p>
+								<strong class="shade">
+									{{ home[3].header }}
+								</strong>
+									<p id = "home_info">
+										{{home[3].info}}
+									</p>	
+							</p>
+							<p>
+								<strong class="shade">
+									{{ home[4].header }}
+								</strong>
+									<p id = "home_info">
+										<a id= "a_to_black" href="{{home[4].url1}}" data-toggle="tooltip" title="{{home[4].tooltip1}}">
+											{{home[4].info1}}
+										</a>, 
+										<a id= "a_to_black" href="{{home[4].url2}}" data-toggle="tooltip" title="{{home[4].tooltip2}}">
+											{{home[4].info2}}
+										</a>
+									</p>
+							</p>
+							<p>
+								<strong class="shade">
+									{{ home[5].header }}
+								</strong>
+									<p id = "home_info">
+										<a id= "a_to_black"  href="{{ home[5].url }}">
+											{{ home[5].info }}
+										</a>
+									</p>
+								</p>
+							<p>
+								<strong class="shade">
+									{{ home[6].header }}
+								</strong>
+									<p id = "home_info">
+										<a id= "a_to_black"  href="{{home[6].url}}" data-toggle="tooltip" title="{{home[6].tooltip}}">
+											{{ home[6].info }}
+										</a>
+									</p>
+							</p>
+							<p>
+								<strong class="shade">
+									{{ home[7].header }}
+								</strong>
+									<p id = "home_info">
+										<a  id= "a_to_black" href="{{home[7].url}}" data-toggle="tooltip" title="{{home[7].tooltip}}">
+											{{ home[7].info }}
+										</a>
+									</p>
+							</p>
+							<p>
+								<strong class="shade">
+									{{ home[8].header }}
+								</strong>
+									<p id = "home_info">
+										<a  id= "a_to_black" href="{{home[8].url}}" data-toggle="tooltip" title="{{home[8].tooltip}}">
+											{{ home[8].info }}
+										</a>
+									</p>
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="aboutMe">
+		<section id="aboutMe" ng-controller="ctrl_about">
 		  <div class="container">
 			<div class="row">
 			  <div class="col-lg-8 mx-auto">
-				<h2 id="baseHeader1" class="shade">base index header 1</h2>
-				<hr>
-				<p id="about_info" class="lead">
+				<div id="about_div" class="bg-light">
+					<h2 id="baseHeader1" class="shade">base index header 1</h2>
+				
+					<hr>
+					
+					<div id="about_zero">
+					
+					<idk></idk>
+					
+					<br>
+					
+						<p class="lead">
+						
+							<img id="img_border" src="{{about[0].url}}" alt="James">
+				
+							<b class="shade"> 
+								{{ about[0].first }} 
+							</b> 
+							
+							{{ about[0].second }} 
+						
+						</p>
+					
+					</div>
+					
+					<div id="about_one">
+					
+						<p class="lead">
+						
+							<b class="shade">
+								{{about[1].first}}
+							</b>
+						
+							{{ about[1].second }}
+						
+						</p>
+					
+					</div>
+					
+					<div id="about_two">
+					
+						<p class="lead">
+						
+							<b class="shade"> 
+								{{ about[2].first }} 
+							</b>
 
-				</p>
+							{{ about[2].second }}
+						
+						</p>
+					
+					</div>
+					
+					<div id="about_three">
+					
+						<p class="lead">
+						
+							<b class="shade"> 
+								{{ about[3].first }} 
+							</b>
+						
+							{{ about[3].second }}
+							
+							<a  id= "a_to_black" href="{{about[3].website}}">
+								{{ nWW }}
+							</a>
+							
+							{{ about[3].third}}
+						
+						</p>
+					
+					</div>
+					
+					<div id="about_four">
+					
+						<p class="lead">
+						
+							<b class="shade"> 
+								{{ about[4].first }} 
+							</b>
+					
+							{{ about[4].second }}		
+
+						</p>	
+					
+					</div>
+					
+					<div id="about_five">
+					
+						<p class="lead">
+						
+							<b class="shade"> 
+								{{ about[5].first }} 
+							</b>
+					
+							{{ about[5].second }}		
+							
+						</p>
+					
+					</div>
+				<div>
 			  </div>
 			</div>
 		  </div>
@@ -727,7 +909,11 @@
 	<!-- Internal Index AngularJS file: angular.js -->
 	<script type="text/javascript" src="js/angularjs/angular.js"></script>
 	<!-- Internal AngularJS file: header.js -->
-	<script type="text/javascript" src="js/angularjs/header/header.js"></script>
+	<script type="text/javascript" src="js/angularjs/attributes/header.js"></script>
+	<!-- Internal AngularJS file: home.js -->
+	<script type="text/javascript" src="js/angularjs/attributes/home.js"></script>
+	<!-- Internal AngularJS file: home.js -->
+	<script type="text/javascript" src="js/angularjs/attributes/about.js"></script>
 	<!-- JQuery to Hide and Show elements upon request -->
 	<script type="text/javascript" src="js/functionality/jquery/jqueryFunctionality.js"></script>
 	<!-- Modal style tool tip module -->
